@@ -1,0 +1,76 @@
+
+.login-page-wrapper {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-page-wrapper form {
+    width: 450px;
+    background-color: #fff;
+    border: 3px solid #f1f1f1;
+    margin-top: 90px;
+}
+
+.form-avatar-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.login-page-wrapper .form-inputs-container {
+    padding: 16px;
+}
+
+.login-page-wrapper .form-input-wrapper {
+    margin: 6px 0;
+}
+
+
+.login-page-wrapper label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin: 0 3px;
+}
+
+.login-page-wrapper input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 9px 0;
+    font-size: 1rem;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-page-wrapper button {
+    background-color: #1E88E5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-page-wrapper button:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+.login-page-wrapper .forget-password-container {
+    padding: 16px;
+}
+
+.login-page-wrapper .form-error-messages {
+    color: #c30400;
+    margin: 6px 0;
+}
+
+

@@ -1,0 +1,102 @@
+
+
+.export-filter-modal-wrapper .base-modal{
+    min-height: 360px;
+    min-width: 320px;
+}
+
+
+.export-filter-modal-header {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 9px;
+}
+
+.export-filter-modal-header-title {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.export-filter-modal-header-close-button {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.export-filter-modal-body-container {
+    display: flex;
+    flex: 1 0 70%;
+    flex-direction: column;
+    width: 100%;
+
+    margin: 9px;
+}
+
+
+.export-filter-modal-datepicker-label-wrapper {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    margin: 15px 0 12px 0;
+}
+
+.export-filter-modal-datepicker-wrapper {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.export-filter-modal-datepicker-wrapper input{
+    display: flex;
+    flex-direction: row;
+
+    width: 160px;
+    font-size: 1rem;
+    padding: 6px 9px;
+}
+
+.export-filter-modal-datepicker-error-message-container {
+    display: flex;
+    flex-direction: row;
+
+    padding: 15px 0 0 0;
+    color: #c30400;
+}
+
+.export-filter-modal-action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 0 0;
+    margin: 3px 9px 9px 9px;
+}
+
+.export-filter-modal-cancel-button  {
+    margin-left: 6px;
+    height: 35px;
+    background-color: #c30400;
+}
+.export-filter-modal-cancel-button:hover  {
+    background-color: #E53935;
+}
+
+.export-filter-modal-ok-button  {
+    margin-left: 6px;
+    height: 35px;
+    background-color: #1E88E5;
+}
+
+.export-filter-modal-ok-button:hover  {
+    background-color: #2897fd;
+}

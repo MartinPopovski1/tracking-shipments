@@ -1,0 +1,231 @@
+
+
+.status-history-modal-wrapper .base-modal{
+    min-height: 550px;
+    min-width: 800px;
+}
+
+
+.status-history-modal-wrapper .base-modal-footer{
+    display: none;
+}
+
+
+.status-history-modal-header {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 9px;
+}
+
+.status-history-modal-header-title {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.status-history-modal-header-close-button {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.status-history-modal-body-container {
+    display: flex;
+    width: 100%;
+
+    margin: 18px 0 0 0;
+
+
+}
+
+
+
+.status-history-table-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+
+    width: 650px;
+    margin: 0 7px;
+    background-color: #fff;
+}
+
+
+
+.status-history-table-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+
+}
+
+.status-history-table-content-header {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    align-items: center;
+
+    width: 100%;
+    min-height: 35px;
+    padding: 6px 0;
+
+    font-size: 0.75rem;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+    background-color: #272E41;
+    text-align: center;
+}
+
+.status-history-table-content-header-cell__extra_small {
+    width: 2%;
+
+    font-weight: bold;
+    margin: 0 6px;
+}
+
+.status-history-table-content-header-cell__small {
+    width: 6%;
+
+    font-weight: bold;
+    margin: 0 6px;
+}
+
+.status-history-table-content-header-cell__medium {
+    width: 14%;
+
+    font-weight: bold;
+    margin: 0 6px;
+}
+
+
+.status-history-table-content-header-cell__large {
+    width: 30%;
+    text-align: center;
+    text-wrap: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    font-weight: bold;
+    margin: 0 6px;
+
+}
+
+
+.status-history-table-content-header-cell__aligned_right {
+    text-align: right;
+}
+
+.status-history-table-content-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+
+
+}
+
+.status-history-table-no-content {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #c30400;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.status-history-table-content-row-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+
+
+    width: 100%;
+}
+
+.status-history-table-content-row {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 30px;
+
+    align-items: center;
+
+    width: 100%;
+
+    padding: 6px 0;
+
+    font-size: 0.9rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.status-history-table-content-row-cell__extra_small {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    justify-content: center;
+    align-items: center;
+
+    width: 2%;
+
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    margin: 0 6px;
+}
+
+.status-history-table-content-row-cell__small {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    justify-content: center;
+    align-items: center;
+
+    width: 6%;
+
+    text-align: center;
+
+    margin: 0 6px;
+}
+
+.status-history-table-content-row-cell__medium {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    justify-content: center;
+    align-items: center;
+
+    width: 14%;
+    text-align: center;
+    margin: 0 6px;
+}
+.status-history-table-content-row-cell__large {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 0 1 auto;
+    text-align: center;
+
+    width: 30%;
+    margin: 0 6px;
+}
+
+.status-history-table-content-row-cell__align-right {
+    justify-content: flex-end;
+}

@@ -1,0 +1,73 @@
+
+
+.are-you-sure-modal-wrapper .base-modal{
+    height: 200px;
+    width: 560px;
+}
+
+
+.are-you-sure-modal-header {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 9px;
+}
+
+.are-you-sure-modal-header-title {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.are-you-sure-modal-header-close-button {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.are-you-sure-modal-body-container {
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: column;
+    width: 100%;
+
+    margin: 15px 9px;
+}
+
+
+
+.are-you-sure-modal-action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 0 0;
+    margin: 3px 9px 9px 9px;
+}
+
+.are-you-sure-modal-cancel-button  {
+    margin-left: 6px;
+    height: 35px;
+    background-color: #1E88E5;
+}
+.are-you-sure-modal-cancel-button:hover  {
+
+    background-color: #2897fd;
+}
+
+.are-you-sure-modal-ok-button  {
+    margin-left: 6px;
+    height: 35px;
+
+    background-color: #c30400;
+}
+
+.are-you-sure-modal-ok-button:hover  {
+    background-color: #E53935;
+}
